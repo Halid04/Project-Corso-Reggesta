@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prova inserimento web</title>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <label for="title">Titolo</label>
+    <input id="title" type="text" />
+
+    <label for="description">Description</label>
+    <input id="description" type="text" />
+
+    <label for="effort">effort</label>
+    <input id="effort" type="number" />
+
+    <button onclick="postData()">Create new element</button>
+    <button onclick="getData()">Get elements</button>
+    <span id="text"></span>
+  </body>
+</html>
